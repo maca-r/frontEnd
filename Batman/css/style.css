@@ -1,0 +1,51 @@
+header{
+    background-color: #E6E6E6;
+    ;
+}
+
+img{
+    margin: auto;
+    display: block;
+}
+
+h1{
+    color: #005677;
+    background-color:#C4C4C4;
+    font-size: 35px;
+    text-align: center;
+    letter-spacing: 3px;
+}
+
+h3{
+    color: #005677;
+    background-color:#C4C4C4;
+    font-size: 20px;
+    letter-spacing: 3px
+}
+
+li span{
+    font-weight: bold;
+}
+
+p span{
+    font-weight: bold;
+}
+
+p.sangria {
+    text-indent: 80px;
+    line-height: 0px;
+}
+
+footer h3{
+    color:#FFFFFF;
+    background-color:#005677;
+    font-size: 20px;
+    text-align: center 
+    ;
+
+}
+
+footer h3 span i{
+    text-indent: 10px;
+    letter-spacing: 10px;
+}
