@@ -16,11 +16,12 @@ h1{
     letter-spacing: 3px;
 }
 
-h3{
+main h3{
     color: #005677;
     background-color:#C4C4C4;
     font-size: 20px;
-    letter-spacing: 3px
+    letter-spacing: 3px;
+    text-transform: uppercase;
 }
 
 li span{
@@ -36,16 +37,15 @@ p.sangria {
     line-height: 0px;
 }
 
-footer h3{
-    color:#FFFFFF;
-    background-color:#005677;
-    font-size: 20px;
-    text-align: center 
-    ;
-
+footer {
+    background-color: #005677;
 }
 
-footer h3 span i{
+footer p{
+    color:#FFFFFF;
     text-indent: 10px;
     letter-spacing: 10px;
+    text-transform: uppercase;
+    font-size: 20px;
+    text-align: center;
 }
