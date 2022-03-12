@@ -1,0 +1,230 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap');
+
+body{
+    font-family: "Roboto",sans-serif;
+}
+
+header div{
+    font-size: 15px;
+    background-color: #1CD1B0;
+    padding: 5px 10px;
+
+}
+
+header h1{
+    font-size: 40px;
+    background-color: #00669F;
+    padding: 28px 28px;
+    box-shadow: 0px 4px 10px gray;
+    margin: 0;
+}
+
+
+section {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+section article{
+    position: relative;
+    margin: 100px 0;
+    width: 300px;
+    background-color: #F3F3F3;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 16px 16px 0 0;
+    box-shadow: 0px 4px 7px gray;
+}
+
+section article div.headerCardBatman{
+    width: 300px;
+    height: 194px;
+    background: url(../img/849bfede3a5193c34ab8a00379e64fa2\ 1.png);
+    border-radius: 16px 16px 0 0;
+    padding: 20px;
+}
+
+section article div.headerCardHarley{
+    width: 300px;
+    height: 194px;
+    background: url(../img/harley\ quinn.png);
+    border-radius: 16px 16px 0 0;
+    padding: 20px;
+}
+
+section article div.headerCardMujer{
+    width: 300px;
+    height: 194px;
+    background: url(../img/logo-mujer-maravilla-png-5-300x200.png);
+    border-radius: 16px 16px 0 0;
+    padding: 20px;
+}
+section article div i {
+    color: #CC2424;
+    font-size: 35px;
+}
+/* logo selfie heroe */
+section article img {
+    position: absolute;
+    border-radius: 50%;
+    top: 135px;
+    box-shadow: 0px 3px 5px gray;
+}
+section article img.mujerM {
+    position: absolute;
+    border-radius: 50%;
+    top: 135px;
+    width: 122px;
+    height: 122px;
+}
+
+section article h3{
+    margin-top: 75px;
+    font-size: 30px;
+    text-transform: uppercase;
+}
+
+h3.harley{
+    text-transform: capitalize;
+}
+
+h3.mMaravilla{
+    text-transform: capitalize;
+}
+section article p{
+    font-size: 15px;
+    text-align: left;
+    margin: 25px 16px ;
+    padding-left: 10px;
+    padding-right: 10px;
+
+}
+
+section article button{
+    width: 128px;
+    color: #ffff;
+    background-color: #00669F;
+    padding: 15px 35px;
+    margin-bottom: 18px;
+    margin-left: 85px;
+    margin-right: 85px;
+}
+
+
+
+
+
+/* .card{
+    display: inline-block;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.encabezadoBatman{
+    position: relative;
+    top: 20px;
+}
+
+.fondoCardBatman{
+    width: 300px;
+}
+
+.personajeBatman{
+    position: absolute;
+    top: 130px;
+    left:90px;
+    z-index: 10;
+    border-radius: 100px;
+}
+
+.meGustaBatman{
+    position: absolute;
+    top: 10px;
+    left: 20px;
+    z-index: 10;
+}
+
+.infoBatman{
+    background-color: #f3f3f3;
+    width: 300px;
+    text-align: center;
+    padding-bottom: 70px;
+    padding-left: 20px;
+    padding-right: 20px;
+    position: relative;
+    top:-14px;
+
+}
+.tituloCard{
+    text-transform: uppercase;
+    padding-top: 70px;
+    font-size: 30px;
+
+}
+.descripcionCard{
+    font-size: 16px;
+    text-align: left;
+}
+
+.verMas{
+    color: #F3F3F3;
+    background-color: #00669F;
+    padding: 10px 20px;
+    font-size: 15px;
+    position: relative;
+    top: 45px;
+}
+
+.encabezadoHarley{
+    position: relative;
+    top: 20px;
+}
+
+.fondoCardHarley{
+    width: 300px;
+}
+
+.personajeHarley{
+    position: absolute;
+    top: 130px;
+    left:90px;
+    z-index: 10;
+    border-radius: 100px;
+}
+
+.meGustaHarley{
+    position: absolute;
+    top: 10px;
+    left: 20px;
+    z-index: 10;
+}
+
+.infoHarley{
+    margin-top: 0;
+    background-color: #F3F3F3;
+    width: 300px;
+    text-align: center;
+    padding-bottom: 70px;
+    padding-left: 20px;
+    padding-right: 20px;
+    position: relative;
+    top:-14px;
+
+} */
+
+footer {
+    color: #F3F3F3;
+    background-color: #00669F;
+    margin: 0;
+    padding-top: 15px;
+    padding-left: 20px;
+    padding-bottom: 15px;
+    font-size: 16px;
+}
