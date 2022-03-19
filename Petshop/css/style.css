@@ -1,0 +1,288 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+
+html{
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+}
+
+header div.priHeader{
+    background-color: #222222;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 60px;
+    font-size: 0.6rem;
+}
+
+header div span{
+    padding-right: 10px;
+}
+
+header div.subHeader{
+    background-color: #F0A83E;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 40px;
+    font-size: 0.65rem;
+}
+
+header div nav ul{
+    color: #FFFFFF;
+    display: flex;
+    list-style-type: none;
+}
+
+header div nav ul li a{
+    color: #FFFFFF;
+    text-decoration: none;
+    text-transform: capitalize;
+    padding-right: 20px;
+}
+
+main section.bowl{
+    background-image: url(../img/bowl-and-pet-daities-on-green-background\ 1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: calc(100vh - 105px);
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 12px;
+    text-align: center;
+}
+
+
+section.bowl div h2{
+    background-color: #FFFFFF;
+    padding: 10px;
+    font-size: 1.5rem;
+}
+
+section.bowl div p{
+    margin: 12px;
+    font-size: 0.8rem;
+}
+
+section.bowl div button{
+    background-color: #F0A83E;
+    text-transform: uppercase;
+    border: none;
+    padding: 15px;
+    font-size: 0.8rem;
+}
+
+section.bowl div button a{
+    color: #FFFFFF;
+    background-color: #F0A83E;
+    text-decoration: none;
+}
+
+main section.info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 25px 0px 50px 0px;
+}
+
+section.info div h3{
+    padding: 10px 0px;
+    text-align: center;
+}
+
+section.info div nav ul{
+    display: flex;
+    list-style-type: none;
+    text-decoration: none;
+    text-align: center;
+    padding: 0px;
+}
+
+section.info div nav ul li a{
+    text-decoration: none;
+    color: #222222;
+    padding: 5px;
+    text-transform: capitalize; 
+}
+
+
+main section.articulos{
+    display: flex;
+    justify-content: center;
+}
+
+section.articulos article{
+    background-color: #FBFAF6;
+    text-transform: capitalize;
+    text-align: center;
+    margin: 20px;
+}
+
+section.articulos article p{
+    color: #F0A83E;
+    font-size: 0.75rem;
+}
+
+
+main section.contactoForm{
+    display: flex;
+    justify-content: center;
+}
+
+section.contactoForm div h3{
+    text-transform: capitalize;
+    font-size: 1.25rem;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+section.contactoForm div p{
+    background-color: #3C2313;
+    color: #FFFFFF;
+    font-size: 0.55rem;
+    padding: 15px 230px 15px 15px;
+    border-radius: 15px;
+    margin: 10px;
+}
+
+section.contactoForm div div.centrar{
+    display: flex;
+    justify-content: center;
+}
+
+section.contactoForm div button{
+    border: none;
+    font-size: 0.8rem;
+    border-radius: 15px;
+    padding: 8px 25px;
+    margin-top: 30px;
+    margin-bottom: 75px;
+    align-items: center;
+    margin-right: 5px;
+    text-transform: capitalize;
+}
+
+section.contactoForm div button.reset{
+    background-color: #8A8787;
+}
+
+section.contactoForm div button.send{
+    background-color: #F0A83E;
+}
+
+section.contactoForm div button a{
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+main div.suscripcion{
+    background-color: #F0A83E;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+
+div.suscripcion div{
+    display: flex;
+    align-items: center;
+
+}
+div.suscripcion div p{
+    padding-left: 10px;
+    color: #FFFFFF;
+    font-weight: bold;
+}
+
+div.suscripcion div span{
+    color: #A0A0A0;
+    font-size: 0.5rem;
+    background-color: #FFFFFF;
+    border-radius: 15px;
+    padding: 15px 150px 15px 8px;
+    margin-right: 5px;
+}
+div.suscripcion div button{
+    border: none;
+    background-color: #3C2313;
+    font-size: 0.5rem;
+    text-align: center;
+    padding: 12px;
+    border-radius: 15px;
+}
+
+div.suscripcion div button a{
+    text-decoration: none;
+    color: #FFFFFF;
+
+}
+
+footer div.datos{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 70px;
+    background-color: #3C2313;
+    color: #FFFFFF;
+}
+
+div.datos div{
+    display: flex;
+}
+
+div.datos div span.iconos{
+    padding-right: 25px;
+}
+
+div.datos div span.iconos p{
+    margin-bottom: 20px;
+    text-align: center;
+    background-color: #8A8787;
+    border: 50;
+    border-radius: 50px;
+    font-size: 2rem;
+    border: solid 5px #786960;
+    padding: 7px;
+}
+
+div.datos div span.iconos p.mail{
+    margin-bottom: 0px;
+}
+
+div.datos div span.contacto h4{
+    text-transform: capitalize;
+    font-weight: bold
+}
+
+div.datos div span.contacto p{
+    color: #8A8787;
+    margin-bottom: 50px;
+    font-size: 0.5rem;
+}
+
+    div.copyright{
+    background-color: #222222;
+    color: #FFFFFF;
+    font-weight: bold;
+    text-align: center;
+    font-size: 0.7rem;
+    padding: 4px 0px;
+}
+
+
+
+@media (max-width:768px) {
+    header div.priHeader, header div.subHeader, header div nav ul, main section.info, section.info div nav ul, main section.articulos, main section.contactoForm, section.contactoForm div div.centrar{
+        display: block;
+    }
+    main div.suscripcion{
+        justify-content: flex-start;
+    }
+        
+}
+
