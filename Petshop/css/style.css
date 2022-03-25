@@ -5,6 +5,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
 
+
 html{
     font-family: 'Roboto', sans-serif;
     font-size: 20px;
@@ -19,8 +20,12 @@ header div.priHeader{
     font-size: 0.6rem;
 }
 
-header div span{
+header div span::after{
     padding-right: 10px;
+    content: "\f107";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    cursor: pointer;
 }
 
 header div.subHeader{
@@ -36,6 +41,13 @@ header div nav ul{
     display: flex;
     list-style-type: none;
 }
+
+header div nav ul li::before{
+    content: "\f1b0";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+}
+
 
 header div nav ul li a{
     color: #FFFFFF;
@@ -135,13 +147,15 @@ main section.contactoForm{
 }
 
 section.contactoForm div h3{
+    color: #3C2313;
     text-transform: capitalize;
     font-size: 1.25rem;
     text-align: center;
     margin-bottom: 10px;
+    margin-top: 78px;
 }
 
-section.contactoForm div p{
+section.contactoForm div form p input{
     background-color: #3C2313;
     color: #FFFFFF;
     font-size: 0.55rem;
@@ -155,6 +169,10 @@ section.contactoForm div div.centrar{
     justify-content: center;
 }
 
+section.contactoForm form p input::placeholder{
+    font-size: 0.5rem;
+    color: #FFFFFF;
+}
 section.contactoForm div button{
     border: none;
     font-size: 0.8rem;
@@ -199,14 +217,23 @@ div.suscripcion div p{
     font-weight: bold;
 }
 
-div.suscripcion div span{
+
+div.suscripcion form p input{
     color: #A0A0A0;
     font-size: 0.5rem;
     background-color: #FFFFFF;
+    border: none;
     border-radius: 15px;
     padding: 15px 150px 15px 8px;
     margin-right: 5px;
 }
+
+
+div.suscripcion div form p input::placeholder{
+    font-size: 0.45rem;
+    color: #A0A0A0;
+}
+
 div.suscripcion div button{
     border: none;
     background-color: #3C2313;
@@ -273,8 +300,6 @@ div.datos div span.contacto p{
     font-size: 0.7rem;
     padding: 4px 0px;
 }
-
-
 
 @media (max-width:768px) {
     header div.priHeader, header div.subHeader, header div nav ul, main section.info, section.info div nav ul, main section.articulos, main section.contactoForm, section.contactoForm div div.centrar{

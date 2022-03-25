@@ -5,25 +5,25 @@
     <script src="https://kit.fontawesome.com/e5823c6ee8.js" crossorigin="anonymous"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../css/style.css">
-    <title>Pet Shop</title>
+    <title>Pet Shop - 2022</title>
 </head>
 <body>
     <header>
         <div class="priHeader">
         <p>Grandes ofertas en comederos</p>
             <div>
-                <span>Español <i class="fa-solid fa-angle-down"></i></i></span>
-                <span>$ARG <i class="fa-solid fa-angle-down"></i></i></span>
+                <span> Español </span>
+                <span>$ARG </span>
             </div>          
         </div>
         <div class="subHeader">
             <img src="../img/Logo.png" alt="Logo de la empresa">
             <nav>
                 <ul>
-                    <li> <i class="fa-solid fa-paw"></i> <a href="">  categorías</a> </li>
-                    <li> <i class="fa-solid fa-paw"></i> <a href="">  pets</a> </li>
-                    <li> <i class="fa-solid fa-paw"></i> <a href="">  nosotros</a> </li>
-                    <li> <i class="fa-solid fa-paw"></i> <a href=""> contactanos</a> </li>
+                    <li> <a href="">categorías</a> </li>
+                    <li> <a href="">pets</a> </li>
+                    <li> <a href="">nosotros</a> </li>
+                    <li> <a href="">contactanos</a> </li>
                 </ul>
             </nav>
         </div>
@@ -44,9 +44,9 @@
                 <h3> Productos Destacados</h3>
                 <nav>
                     <ul>
-                        <li>  <a href=""> comederos - </a> </li>
-                        <li>  <a href=""> accesorios - </a> </li>
-                        <li>  <a href=""> comida</a> </li>
+                        <li><a href=""> comederos - </a> </li>
+                        <li><a href=""> accesorios - </a> </li>
+                        <li><a href=""> comida</a> </li>
                     </ul>
                 </nav>
             </div>
@@ -73,14 +73,21 @@
         <section class="contactoForm">
             <div>
                 <h3>contáctanos</h3>
-                <p>Nombre y Apellido</p>  
-                <p>Ingresá tu correo electrónico</p>
-                <p>Teléfono</p>
-                <div class="centrar">
-                    <button class="reset"> <a href="">resetear</a> </button>
-                    <button class="send"> <a href="">enviar</a> </button>
-                </div>
-                
+                <form action="../html/forms.html" method="get">
+                    <p>
+                        <input type="text" name="nombre" id="name" placeholder="Nombre y apellido">
+                    </p>
+                    <p>
+                        <input type="email" name="email" id="mail" placeholder="Ingresá tu correo electrónico">
+                    </p>
+                    <p>
+                        <input type="tel" name="tel" id="tel" placeholder="Teléfono">
+                    </p>
+                    <div class="centrar">
+                        <button type="reset" class="reset"> <a href="">resetear</a> </button>
+                        <button type="submit" class="send"> <a href="">enviar</a> </button>
+                    </div>
+                </form>
             </div>
             
         </section>
@@ -90,8 +97,14 @@
                 <p> Suscríbete para más novedades</p>
             </div>
             <div>
-                <span>Ingresá tu correo electrónico</span>
+                <form action="../html/forms.html" method="get">
+                    <p>
+                        <input type="email" name="email" id="mail" placeholder="Ingresá tu correo electrónico">
+                    </p>
+                </form>
                 <button> <a href="">Suscribirme</a> </button>
+            </div>
+                
         </div>
 
     </main>
