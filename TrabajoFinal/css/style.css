@@ -1,0 +1,593 @@
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;600;700&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Be Vietnam Pro", sans-serif;
+    font-size: 1.25rem;
+
+}
+
+
+header{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+header nav ul {
+    display: flex;
+    list-style-type: none;
+}
+
+header ul li a{
+    padding-right: 28px;
+    text-decoration: none;
+    text-transform: capitalize;
+    color: #242E52;
+}
+
+header ul li a:hover{
+    color: #B3B2B7;
+    transition: 
+        color 0.2s;
+}
+
+
+/* menú burguer */
+header div a{
+    display: none;
+}
+
+header button{
+    box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.25);
+}
+
+button{
+    background-color: #F3603B;
+    border-radius: 50px;
+    padding: 12.5px 30.5px;
+    border: none;
+}
+
+header button:hover, section.grafico button:hover, section.opinion button:hover{
+    background-color: #f4947c;
+    cursor: pointer;
+    transition: 
+        background-color 0.1s;
+}
+
+button a{
+    text-transform: capitalize;
+    text-decoration: none;
+    color: #FFFFFF;
+    font-family: 'Be Vietnam Pro', sans-serif;
+    font-weight: 500;
+    font-size: 0.65rem;
+}
+
+
+main section.grafico{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+main section.grafico div {
+    text-align: left;
+    align-items: center;
+    color: #000000;
+    width: 440px;
+}
+
+main section.grafico div h2{
+    font-size: 2.5rem;
+    color: #232C50;
+    margin: 0;
+    line-height: 66px;
+
+}
+
+main section.grafico div p{
+    font-size: 0.8rem;
+    font-weight: 500;
+    padding: 28px 90px 28px 0px;
+    line-height: 1.3rem;
+    margin: 0;
+}
+
+main section.grafico div button a{
+    margin-top: 50px ;
+}
+
+main section.manage{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    margin-top: 50px;
+    
+}
+
+main section.manage h3{
+    font-size: 1.9rem;
+    color: #242E53;
+    font-weight: 700;
+    width: 430px;
+    margin: 0px;
+}
+
+main section.manage p{
+    width: 335px;
+    font-weight: 500;
+    font-size: 0.8rem;
+    line-height: 24px;
+    
+}
+
+main section.manage div.nro article div{
+    display: flex;
+    align-items: center;
+
+}
+
+main section.manage div.nro article div span.n{
+    background-color: #F3603B;
+    margin-right: 23px;
+    border-radius: 30px;
+    padding: 10px 25px;
+    color: #FFFFFF;
+    font-size: 0.8rem;
+}
+
+main section.manage div.nro article div p.titulo{
+    color: #323851;
+    font-size: 0.9rem;
+    font-weight: 700;
+}
+
+main section.manage div.nro article p.text{
+    color: #B3B2B7;
+    font-size: 0.8rem;
+    margin-left: 90px;
+}
+
+
+/* main section.manage div.nro{
+    display: flex;
+    align-items: baseline;
+    margin: 0px;
+}
+
+main section.manage div.nro span span.n{
+    display: block;
+    background-color: #F3603B;
+    margin-top: 25px;
+    margin-bottom: 140px;
+    margin-right: 23px;
+    font-size: 0.8rem;
+    padding: 10px 25px;
+    border-radius: 30px;
+    color: #FFFFFF;
+    font-weight: 700;
+}
+
+main section.manage div.nro article h6{
+    color: #323851;
+    font-size: 0.8rem;
+}
+
+main section.manage div.nro article p{
+    color: #B3B2B7;
+    font-size: 0.8rem;
+}
+
+ */
+
+
+
+main section.opinion{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+main section.opinion h5{
+    font-size: 1.9rem;
+    color: #242E53;
+    font-weight: 700;
+    margin-bottom: 100px;
+    margin-top: 130px;
+}
+
+main section.opinion div{
+    display: flex;
+    width: auto;
+    
+}
+
+main section.opinion div article{
+    background-color: #FAFAFA;
+    width: 445px;
+    font-size: 0.8rem;
+    margin-bottom: 45px;
+
+
+}
+
+main section.opinion div article img{
+    position: relative;
+    width: 100px;
+    top: -45px;
+    left: 180px;
+}
+
+main section.opinion div article img:hover{
+    box-shadow: -3px 1px 27px 11px rgba(158,158,158,0.6);
+    border-radius: 50%;
+}
+
+main section.opinion article h6{
+    text-transform: capitalize;
+    color: #3F4868;
+    margin: 0;
+    font-size: 1rem;
+    text-align: center;
+}
+
+main section.opinion article p{
+    margin: 0;
+    font-size: 0.8rem;
+    padding: 21px 28px 40px 28px;
+    text-align: center;
+}
+
+main section.opinion button{
+    margin-bottom: 190px;
+}
+
+main section.banner{
+    background-color: #F3613C;
+    display: flex;
+    justify-content: space-between;
+    padding: 65px 165px;
+}
+
+main section.banner h2{
+    color: #FFFFFF;
+    width: 440px;
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+main section.banner button.dif{
+    padding: 0px;
+}
+
+main section.banner button.dif a{
+    background-color: #FFFFFF;
+    color: #F3603B;
+    border-radius: 50px;
+    padding: 12.5px 30.5px;
+    border: none;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.25);
+}
+
+section.banner button.dif a:hover{
+    background-color: #fcf0ed;
+    cursor: pointer;
+    transition: 
+        background-color 0.1s;
+
+}
+
+main button{
+    box-shadow: 0px 4px 8px rgba(242, 97, 59, 0.5);
+}
+
+footer{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #1E1E26;
+    padding: 67px 15px;
+}
+
+footer div.empresa span{
+    display: flex;
+}
+
+footer div.empresa span p{
+    padding-right: 13px;
+    padding-top: 67px;
+}
+
+footer div.empresa span p a{
+    color: #FFFFFF;
+}
+
+footer div.empresa span p a:hover{
+    color: #F3613C;
+    transition: 
+        color 0.2s;
+}
+
+footer div.navs{
+    display: flex;
+    ;
+}
+
+footer nav ul{
+    list-style-type: none;
+    margin: 0px;
+    padding-left: 0px;
+    
+}
+
+footer div.navs nav.primNav{
+    margin-right: 150px;
+}   
+
+
+footer nav ul li a{
+    padding-bottom: 12px;
+    text-transform: capitalize;
+    font-size: 0.9rem;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+footer nav ul li a:hover{
+    color: #F3613C;
+    transition: 
+        color 0.2s;
+}
+
+footer div.formulario form.inbox {
+    display: flex;
+    align-items: center;
+    font-size: 0.6rem;
+    margin-top: -10px;
+    
+}
+
+footer div.formulario form.inbox p{
+    padding-right: 10px;
+}
+
+footer div.formulario form.inbox p input{
+    color: #8C8C94;
+    border-radius: 50px;
+    border: none;
+    padding: 12.5px 48px 12.5px 10px;
+    font-weight: 600;
+}
+
+footer div.formulario form.inbox p input:focus:invalid{
+    border: 3.5px;
+    border-style: solid;
+    border-color: red;
+}
+
+footer div.formulario form.inbox button.form{
+    width: 60px;
+    padding: 11.5px 22.5px;
+}
+
+footer div.formulario form.inbox button.form:hover{
+    background-color: #f4947c;
+    cursor: pointer;
+    transition: 
+        background-color 0.1s;
+}
+
+footer p.copyright{
+    position: relative;
+    color: #8C8C94;
+    font-size: 0.7rem;
+    font-weight: 500;
+    padding-top: 74px;
+    text-align: right;
+}
+/* estilo para "otro index" envío formulario */
+body p.index2{
+    width: 500px;
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #242094;
+    color: #FAFAFA;
+    margin-top: 50vh;
+    margin-left: 35vw;
+}
+
+
+/* media queries */
+@media (max-width:376px){
+    
+    header{
+        justify-content: space-between;
+        padding: 25px 5px;
+        
+    }
+
+    header nav, header button{
+        display: none;
+    }
+
+    header div a{
+        display: block;
+        color: #242094;
+        cursor: pointer;
+    }
+    /* VER SI BORRAR */
+    body{
+        width: auto;
+    }
+
+    main section.grafico{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        flex-wrap: wrap;
+        text-align: center;
+        
+    }
+
+    main section.grafico div{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 350px;
+    }
+    main section.grafico div h2{
+        text-align: center;
+    }
+
+    main section.grafico div p{
+        text-align: center;
+        color: #8C8C94;
+        font-size: 1rem;
+        padding: 10px 7px 30px 15px;
+    }
+
+    main section.grafico img{
+        order: -1;
+        width: 90%;
+    }
+    
+
+    main section.manage{
+        display: flex;
+        flex-direction: column;
+        padding-top: 60px;
+    }
+
+    main section.manage div h3{
+        width: 290px;
+        text-align: center;
+        margin-left: 25px;
+    }
+
+    main section.manage div p{
+        text-align: center;
+        color: #8C8C94;
+        font-size: 1rem;
+        width: fit-content;
+    
+    }
+
+    main section.manage div.nro{
+        margin-top: 50px;
+    }
+    
+    main section.manage div.nro article div span.n{
+        margin: 0px;
+    }
+    main section.manage div.nro article div p.titulo{
+        margin-left: -3px;
+        padding-left: 11px;
+        border-end-end-radius: 10px;
+        border-top-right-radius: 10px;
+        text-align: left;
+        background-color: #fdded7;
+        z-index: -1;
+        width: 90%;
+    }
+
+    main section.manage div.nro article p.text{
+        text-align: left;
+        padding-left: 10px;
+    }
+
+    main section.opinion div{
+        flex-direction: column;
+    }
+    main section.opinion div article.anisha, article.richard{
+        display: none;
+    }
+
+    main section.opinion div article.ali{
+        width: auto;
+    }
+
+    main section.opinion div article.ali img{
+        position: relative;
+        width: 100px;
+        top: -45px;
+        left: 135px;
+    }
+
+    main section.banner{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        
+        text-align: center;
+        padding: 20px 10px 50px 10px;
+    }
+
+    main section.banner h2{
+        width: auto;
+    }
+
+    footer{
+        padding: 35px 15px;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    footer div.empresa{
+        order: 1;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    footer div.empresa img{
+        order: 1;
+        padding-top: 20px;
+    }
+
+    footer div.empresa span p{
+        padding-top: 0px;
+        padding-right: 30px;
+        font-size: 1.5rem;
+    }
+
+    footer div.empresa span p.sinP{
+        padding-right: 0px;
+    }
+
+    footer div.navs{
+        margin: 20px 50px;
+    }
+
+    footer div.navs nav.primNav{
+        margin-right: 65px;
+    } 
+
+    footer div.formulario{
+        order: -1;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    footer div.formulario p.copyright{
+        display: none;
+    }
+
+    footer p.copyright2{
+        order: 2;
+        color: #8C8C94;
+        font-size: 0.7rem;
+        font-weight: 500;
+        padding-top: 50px;
+        margin: 0;
+        
+
+
+
+}
