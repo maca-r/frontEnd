@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+
+* {
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+body{
+    background-color: #f3f3f3;
+    margin: 0%;
+}
+
+header nav {
+    color: white;
+    background-color: black;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5rem 1rem;
+    margin-bottom: 3rem;
+    box-shadow: 0rem 0.5rem 1.5rem -0.5rem rgba(92,92,92,0.75);
+
+}
+
+
+header nav ul li a{
+    color: white;
+    text-decoration: none;
+}
+
+header nav ul li a:hover{
+    color: yellow;
+    
+}
+
+
+header nav ul.nav-bar{
+    display: flex;
+}
+
+header nav ul.nav-bar li.itemNav{
+    margin: 0.63rem;
+}
+
+main section {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 2.12rem 1.19rem;
+    height:max-content;
+    min-height: 26.25rem;
+
+}
+
+main section div.delivery{
+    background-image: url("../img/delivery.jpg");
+    background-size: cover;
+    width: 50%;
+    margin: 0.16rem;
+    border-radius: 0.44rem;
+    
+}
+
+main section div.delivery h3{
+    color: red;
+    font-size: 1.5rem;
+    margin: 1.56rem;
+}
+
+main section div.delivery h3 span{
+    color: white;
+}
+
+
+main section div.podioPizzas{
+    background-color: white;
+    width: 50%;
+    border-radius: 0.44rem;
+    
+}
+
+main section div.podioPizzas h2{
+    margin-left: 25%;
+}
+
+main section div.podioPizzas h3.tituloPodio{
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+
+main section div.podioPizzas div.podio{
+    display: flex;
+    justify-content: space-around;
+    margin-left: 4.38rem;
+}
+
+
+main section div.podioPizzas div.podio div.top ol li{
+    margin-bottom: 0.63rem;
+    font-weight: bold;
+}
+
+
+footer {
+    color: white;
+    background-color: black;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    box-shadow: 0rem -0.5rem 1.5rem -0.5rem rgba(92,92,92,0.75);
+    height: 9rem;
+    margin-top: 3rem;
+    
+}
+
+footer div.listaPie{
+    padding: 1.5rem 1rem;
+}
+
+footer div.listaPie ul li{
+    margin-bottom: 0.31rem;
+}
+
+footer div.listaPie ul li a{
+    color: white;
+    text-decoration: none;
+    padding-bottom: 5px;
+}
+
+footer div.listaPie ul li a:hover{
+    color: yellow;
+    
+}
+
+footer img{
+    padding: 1.5rem 1rem;
+}
+
+
